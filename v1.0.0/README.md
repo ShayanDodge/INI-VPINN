@@ -84,13 +84,22 @@ Tshape_FEM_INI_Homogeneous.pdf
 ERROR_VS_WALLTIME_AND_EPOCHS_INI.png
 ```
 
-## Benchmark result
+## Benchmark Results
 
-For the supplied homogeneous T-shaped case:
+### Homogeneous T-shaped benchmark
 
-- MAE: `1.57e-03`
-- RMSE: `1.85e-03`
-- MAPE: `0.31%`
+The first public release (**v1.0.0**) includes the homogeneous T-shaped benchmark.
+
+#### Solution comparison
+FEM reference, INI-VPINN prediction, and absolute error:
+
+![Homogeneous benchmark result](Tshape_FEM_INI_Homogeneous.png)
+
+#### Convergence history
+Relative $L_2$ error versus wall-clock time and training iterations:
+
+![Convergence history](ERROR_VS_WALLTIME_AND_EPOCHS_INI.png)
+
 
 ## Run
 
