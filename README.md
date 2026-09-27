@@ -52,4 +52,7 @@ For the mathematical formulation, weak-form derivation, implicit treatment of Ne
 
 If INI-VPINN is useful for your work, please ⭐ **star this repository** and cite the paper. This helps others discover the project and supports future releases.
 
+Thank you for your interest and patience!
+
+**Shayan Dodge**
 
