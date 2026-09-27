@@ -53,11 +53,20 @@ SHOW_SUBDOMAIN_NUMBERS = True
 
 For the default `4 × 4` grid, element IDs are numbered row-wise:
 
-| **12** | **13** | **14** | **15** |
-|---:|---:|---:|---:|
-| **8** | **9** | **10** | **11** |
-| ~~4~~ | **5** | **6** | ~~7~~ |
-| ~~0~~ | **1** | **2** | ~~3~~ |
+<table>
+  <tr>
+    <td><b>12</b></td><td><b>13</b></td><td><b>14</b></td><td><b>15</b></td>
+  </tr>
+  <tr>
+    <td><b>8</b></td><td><b>9</b></td><td><b>10</b></td><td><b>11</b></td>
+  </tr>
+  <tr>
+    <td><s>4</s></td><td><b>5</b></td><td><b>6</b></td><td><s>7</s></td>
+  </tr>
+  <tr>
+    <td><s>0</s></td><td><b>1</b></td><td><b>2</b></td><td><s>3</s></td>
+  </tr>
+</table>
 
 **Bold** numbers are active T-shaped subdomains; ~~crossed-out~~ numbers are inactive and excluded from the weak-form assembly.
 
