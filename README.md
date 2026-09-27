@@ -13,9 +13,9 @@ This repository hosts the public INI-VPINN implementation and will be expanded p
 
 ## Release Status
 
-### v1.0.0 — Homogeneous inverted-T benchmark
+### v1.0.0 — Homogeneous T-shaped benchmark
 
-The first public release, **v1.0.0**, provides the **homogeneous inverted-T benchmark** with:
+The first public release, **v1.0.0**, provides the **homogeneous T-shaped benchmark** with:
 
 - the complete INI-VPINN training notebook;
 - operator-guided element-wise test-function selection;
@@ -33,7 +33,7 @@ INI_VPINN_v1.0.0_Homogeneous.ipynb
 
 The repository will be extended with additional INI-VPINN cases, including:
 
-- **Non-Homogeneous doman benchmarks**;
+- **Non-homogeneous domain benchmarks**;
 - **Poisson-equation benchmarks**;
 - **Non-Rectangular geometries**.
 

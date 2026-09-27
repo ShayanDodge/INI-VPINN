@@ -53,12 +53,13 @@ SHOW_SUBDOMAIN_NUMBERS = True
 
 For the default `4 × 4` grid, element IDs are numbered row-wise:
 
-```text
-12   13   14   15
- 8    9   10   11
- 4    5    6    7
- 0    1    2    3
-```
+| **12** | **13** | **14** | **15** |
+|---:|---:|---:|---:|
+| **8** | **9** | **10** | **11** |
+| ~~4~~ | **5** | **6** | ~~7~~ |
+| ~~0~~ | **1** | **2** | ~~3~~ |
+
+**Bold** numbers are active T-shaped subdomains; ~~crossed-out~~ numbers are inactive and excluded from the weak-form assembly.
 
 For the T-shaped domain, the lower corner elements are inactive. The numbering plot should be used as the operator's guide when editing the element-wise test-function dictionaries.
 
@@ -198,5 +199,3 @@ For the formulation, derivation, test-function construction, and benchmark defin
 
 If INI-VPINN is useful to your work, please ⭐ **star the repository** and cite the paper. This helps others discover the project and supports continued development and future benchmark releases.
 
-
-If this repository is useful to your work, please consider **starring the GitHub repository** and citing the paper. This helps others discover the project and supports continued development.
