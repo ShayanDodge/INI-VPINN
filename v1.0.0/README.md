@@ -110,6 +110,11 @@ If you use this code or results, please cite the INI-VPINN paper:
 
 > Shayan Dodge et al., **“INI-VPINN: A Variational Physics-Informed Neural Network with Implicit Neumann and Interface Handling for Multi-Material Domains with Geometric Singularities,”** Journal of Computational Physics, 2026.
 
+**Authors:** Shayan Dodge, Alessandro Formisano, Sami Barmada  
+**Journal:** *Journal of Computational Physics (JCP)*  
+**DOI:** `10.1016/j.jcp.2026.115328`    
+**Links:**  [ScienceDirect](https://doi.org/10.1016/j.jcp.2026.115328) ·[arXiv](https://arxiv.org/abs/2606.18032) ·[ResearchGate](https://www.researchgate.net/publication/413656372_INI-VPINN_A_Variational_Physics-Informed_Neural_Network_with_Implicit_Neumann_and_Interface_Handling_for_Multi-Material_Domains_with_Geometric_Singularities)
+
 BibTeX:
 
 ```bibtex
