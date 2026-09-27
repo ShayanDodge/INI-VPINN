@@ -117,7 +117,11 @@ SHOW_TEST_FAMILIES = True
 
 The resulting 2D weighting function is formed from the selected one-dimensional functions in the `x` and `y` directions. The first mode provides a simple visual check of the complete T-shaped arrangement. Each active subdomain is labeled with its element number and paper notation (`J×J`, `C×J`, `J×S`, etc.):
 
-![2D test function n=1](INI_VPINN_2D_Test_Function_n1.png)
+<p align="center">
+  <img src="INI_VPINN_2D_Test_Function_n1.png"
+       alt="2D test function n=1"
+       width="600">
+</p>
 
 The color scale is fixed from `-1` to `+1` for a consistent visual reference. Before training, the operator should check the element numbering and confirm that each `C`, `S`, or `J` assignment agrees with the intended boundary location.
 
