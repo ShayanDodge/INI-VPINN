@@ -1,6 +1,6 @@
 # INI-VPINN v1.0.0
 
-Homogeneous inverted-T benchmark for **INI-VPINN**.
+Homogeneous T-shaped domain benchmark for **INI-VPINN**.
 
 This release provides a complete notebook workflow for training, operator-guided test-function selection, FEM validation, and convergence/error visualization.
 
@@ -86,7 +86,7 @@ ERROR_VS_WALLTIME_AND_EPOCHS_INI.png
 
 ## Benchmark result
 
-For the supplied homogeneous inverted-T case:
+For the supplied homogeneous T-shaped case:
 
 - MAE: `1.57e-03`
 - RMSE: `1.85e-03`
@@ -108,16 +108,23 @@ Then restore the full training value for the final run.
 
 If you use this code or results, please cite the INI-VPINN paper:
 
-> Shayan Dodge et al., **“INI-VPINN: A Variational Physics-Informed Neural Network with Implicit Neumann and Interface Handling for Multi-Material Domains with Geometric Singularities,”** arXiv:2606.18032, 2026.
+> Shayan Dodge et al., **“INI-VPINN: A Variational Physics-Informed Neural Network with Implicit Neumann and Interface Handling for Multi-Material Domains with Geometric Singularities,”** Journal of Computational Physics, 2026.
 
 BibTeX:
 
 ```bibtex
 @article{dodge2026inivpinn,
-  title   = {INI-VPINN: A Variational Physics-Informed Neural Network with Implicit Neumann and Interface Handling for Multi-Material Domains with Geometric Singularities},
-  author  = {Dodge, Shayan and others},
-  journal = {arXiv preprint arXiv:2606.18032},
-  year    = {2026}
+title = {INI-VPINN: A variational physics-informed neural network with implicit neumann and interface handling for multi-material domains with geometric singularities},
+journal = {Journal of Computational Physics},
+volume = {565},
+pages = {115328},
+year = {2026},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2026.115328},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999126006777},
+author = {Shayan Dodge and Alessandro Formisano and Sami Barmada},
+keywords = {Physics-informed neural networks (PINNs), Variational PINN (VPINN), Petrov-Galerkin method, Weak-form learning, Neumann and interface conditions, Multi-material domains, Geometric singularities},
+abstract = {We propose a new weak-form Physics-Informed Neural Network approach (named INI-VPINN). INI-VPINN naturally incorporates Neumann boundary and interface conditions into the variational formulation. It removes the need for additional loss terms or multiple subdomain networks. This framework employs compact support weighting functions and integration by parts to implicitly impose flux and continuity constraints. In this way, it implicitly ensures physical consistency across material boundaries. The proposed method is tested on Poisson and Laplace problems with sharp interfaces and complex geometries. Results show that, compared with several other Physics Informed Neural Networks-based formulations, the INI-VPINN consistently achieves higher accuracy, smoother and faster convergence. The proposed framework provides a general approach for solving multimaterial problems with complex geometries and mixed Neumann-Dirichlet boundary conditions using neural networks. The implementation is publicly available in a GitHub repository (version v0.1.0). https://github.com/ShayanDodge/INI-VPINN}
 }
 ```
 
