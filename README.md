@@ -4,7 +4,8 @@
 
 **Authors:** Shayan Dodge, Alessandro Formisano, Sami Barmada  
 **Journal:** *Journal of Computational Physics (JCP)*  
-**DOI:** `10.1016/j.jcp.2026.115328`
+**DOI:** `10.1016/j.jcp.2026.115328`    
+**Links:**  [ScienceDirect](https://doi.org/10.1016/j.jcp.2026.115328) ·[arXiv](https://arxiv.org/abs/2606.18032) ·[ResearchGate](https://www.researchgate.net/publication/413656372_INI-VPINN_A_Variational_Physics-Informed_Neural_Network_with_Implicit_Neumann_and_Interface_Handling_for_Multi-Material_Domains_with_Geometric_Singularities)
 
 The INI-VPINN paper is published in the **Journal of Computational Physics (JCP)**.
 
